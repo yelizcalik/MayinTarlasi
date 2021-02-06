@@ -1,4 +1,4 @@
-# kullandığımız kütüphaneler çağırıldı
+# imported libraries
 
 import sys
 from PyQt5.QtCore import QSize
