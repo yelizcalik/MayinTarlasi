@@ -3,12 +3,12 @@
 import sys
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QApplication, QWidget, QToolButton, QLabel, QGridLayout, QMessageBox
-from Tarla import Bos  # Bos fonksiyonu import edildi
-from Tarla import Tarla  # Tarla fonksiyonu import edildi
+from Tarla import Bos  # imported Bos function
+from Tarla import Tarla  # imported Tarla function
 
 
 class Arayuz(
-        QWidget):  # Arayuz classı QWidget ile oluşturuldu (pencere kullanımına izin veren kütüphaneden alındı)
+        QWidget):  # Created Arayuz with QWidget
     def __init__(self, parent=None):
         QWidget.__init__(self, parent)
         # tarla Tarla fonskiyonuna atandı dolayısıyla Tarla fonskiyonu tarla
